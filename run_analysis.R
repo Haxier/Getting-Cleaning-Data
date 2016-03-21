@@ -72,5 +72,5 @@ analyze <- function(){
     #Create a data set with the average of each variable for each activity and each subject
     setkey(dt, subject, activity, featDomain, featAcceleration, featInstrument, featJerk, featMagnitude, featVariable, featAxis)
     dtTidy <- dt[, list(count = .N, average = mean(value)), by = key(dt)]
-    write.table(dtTidy, "data_with_means.txt")
+    write.table(dtTidy, "data_with_means.txt", row.name=FALSE)
 }
