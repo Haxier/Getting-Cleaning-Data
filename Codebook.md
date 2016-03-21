@@ -29,10 +29,11 @@ featAverage      | Feature: Average of each variable for each activity and each 
 
 Data Transformation and Cleaning
 ------------------------------
-Source the "run_analysis.R" script and then execute the "analyze" function to perform the analysis. This function performs the following steps to clean the data:
-	1. read all data files
-	2. combine train and test data and set exaplainatory names
-	3. subset mean and std values
-	4. set descriptive activity names
-	5. Separate features from featureName using the helper function
-	6. Create a data set with the average of each variable for each activity and each subject
+Source the "run_analysis.R" script and then execute the "analyze()" function to perform the analysis. This function performs the following steps to clean the data:
+
+1. read all data files
+2. combine train and test data and set exaplainatory names
+3. subset mean and std values
+4. set descriptive activity names
+5. Separate features from featureName using the helper function
+6. Create a data set with the average of each variable for each activity and each subject
