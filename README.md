@@ -5,7 +5,7 @@ In this repository you will find:
 * ./README.md : explaination about the repository contents and how to execute the run_analysis.R script
 * ./data : folder containing the data used to do the analysis.
 * ./Codebook.md : explaination about the data used for the analysis, variables and data transformation
-* ./run_analysis.R : source code of the R script
+* ./run_analysis.R : source code of the R script in the analize() function
 
 How run_analysis.R script works.
 * First, unzip the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and rename the folder with "data".
