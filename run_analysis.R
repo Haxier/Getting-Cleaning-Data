@@ -1,10 +1,13 @@
+# helper function to grep a regular expression
 grepthis <- function(regex) {
     grepl(regex, dt$feature)
 }
+# helper function to read tables
 fileToDataTable <- function(f) {
     df <- read.table(f)
     dt <- data.table(df)
 }
+# Get and Clean the Data
 analyze <- function(){
     library(reshape2)
     library(data.table)
